@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    background-color: #98fb98;
+}
+.container{
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+}
+.product{
+    display: inline-block;
+    width: 20%;
+    height: 433px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 10px;
+    position: relative;
+}
+.first{
+    background-image: url(product-1.jpg);
+}
+.second{
+    background-image: url(product-2.jpg);
+}
+.third{
+    background-image: url(product-3.jpg);
+}
+.fourth{
+    background-image: url(product-4.jpg);
+}
+.mask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition-property: all;
+}
+
+.icon{
+    font-size: 4em;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.fa{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50% , -50%)
+}
+.icon a{
+    color: white;
+}
+.mask:hover{
+    background-color: rgba(255 , 111 ,0 , 0.8);
+    transition: 0.2s;
+    transition-timing-function: linear;
+}
+.icon:hover{
+    opacity: 1;
+}

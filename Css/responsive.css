@@ -1,0 +1,38 @@
+@media all and (max-width:992px){
+    .container{
+        transform: translateY(0);
+    }
+    .first{
+        width: 49%;
+        margin: 0;
+    }
+    .second{
+        width: 49%;
+        margin: 0;
+    }
+    .third{
+        width: 49%;
+        margin: 0;
+    }
+    .fourth{
+        width: 49%;
+        margin: 0;
+    }
+}
+@media all and (max-width:480px){
+    .container{
+        transform: translateY(5px);
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+    .fourth{
+        width: 100%;
+    }
+}
